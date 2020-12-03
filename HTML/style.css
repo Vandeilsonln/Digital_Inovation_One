@@ -47,3 +47,13 @@ a {
     border-radius: 50%;
     border: 2px solid black
 }
+
+.contact-list {
+    list-style: none;
+    padding-left: 10px;   
+}
+
+.contact-list li a {
+    color: darkslateblue;
+    text-decoration: none;
+}
