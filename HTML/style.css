@@ -1,9 +1,20 @@
 body{
     background-color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #title, .subtitle, .post-title {
     color: #333333;
+}
+
+#title {
+  font-size: 40px;
+  text-transform: uppercase  
+}
+
+a {
+    text-decoration: line-through;
+    color:  navy;
 }
 
 .post-title {
@@ -16,7 +27,7 @@ body{
 .post-content{
     margin: 0px;
     margin-bottom: 5px;
-
+    text-transform: capitalize;
 }
 .post{
     background-color: white;
