@@ -127,3 +127,33 @@ body {
 .app-download:nth-child(2) {
     background-image: url('_images/google-store.png');
 }
+
+/* media queries */
+
+@media (max-width: 1170px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 780px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .insta-login {
+        width: 100%;
+    }
+
+    body {
+        background-color: #ffffff;
+    }
+
+    .group {
+        border: 1px solid transparent;
+    }
+}
