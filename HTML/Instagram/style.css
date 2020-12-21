@@ -188,6 +188,10 @@ body {
         display: none;
     }
 
+    .instagram-wrapper {
+        width: 70%;
+    }
+
     .instagram-login {
         width: 100%;
     }
