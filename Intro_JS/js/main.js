@@ -1,10 +1,13 @@
-var nome = "Vandeilson Nobre";
-var idade = 29;
-var idade2 = 10;
-var frase = 'Japão é o melhor time do mundo';
-// alert(nome + ' tem ' + idade + ' anos.');
+var lista = ['maça', 'pera', 'laranja'];
 
-console.log(nome);
-console.log(idade * idade2);
-//console.log(frase.replace('Japão', 'Brasil'))
-console.log(frase.toLowerCase())
+console.log(lista);
+lista.push('uva');
+
+console.log(lista);
+
+lista.pop();
+console.log(lista);
+console.log('Tamanho da lista: ' + lista.length)
+console.log(lista.reverse())
+
+console.log(lista.join(' | '))
