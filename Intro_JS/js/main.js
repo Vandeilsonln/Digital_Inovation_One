@@ -1,13 +1,10 @@
-var lista = ['maça', 'pera', 'laranja'];
+/* var fruta = {nome:'maçã', cor:'vermelha'}
+console.log(fruta)
+console.log(fruta.nome)
+console.log(fruta.cor) */
 
-console.log(lista);
-lista.push('uva');
+var frutas = [{nome:'maçã', cor:'vermelha'}, {nome:'uva', cor:'roxo'}];
 
-console.log(lista);
-
-lista.pop();
-console.log(lista);
-console.log('Tamanho da lista: ' + lista.length)
-console.log(lista.reverse())
-
-console.log(lista.join(' | '))
+console.log(frutas);
+console.log(frutas[0]);
+console.log(frutas[1].nome);
