@@ -1,28 +1,24 @@
-/* var idade = prompt('Qual a sua idade? ');
-
-if (idade => 18) {
-    alert("Maior de idade")
-} else {
-    alert('Menor de idade')
+function botao(){
+    document.getElementById('clicou').innerHTML = 'Obrigado por clicar';
+    
 }
 
-
-var count = 0;
-
-while (count <= 5) {
-    console.log(count);
-    count++;
-} 
-
-
-var count;
-
-for(count=0; count<=5; count++){
-    console.log(count)
+function redirecionar(){
+    window.open('https://google.com.br')
 }
 
+function trocar(elemento){
+    elemento.innerHTML = 'Despassa o mouse agora'
+}
 
-var d = new Date();
+function voltar(elemento){
+    elemento.innerHTML = 'Passe mais uma vez'
+}
 
-alert(d.get());
-*/
+function load(){
+    alert('página carregada')
+}
+
+function change(elemento){
+    console.log(elemento.value)
+}
