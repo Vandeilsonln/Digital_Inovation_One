@@ -9,7 +9,7 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
@@ -17,12 +17,20 @@ body {
     justify-content: center;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    min-height: 100vh;
+}
+
 .instagram-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
-    height: 100vh;
+    margin-block-start: 30px;
 }
 
 .instagram-phone {
@@ -33,7 +41,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 47rem;
+    height: 42rem;
 }
 
 .instagram-login {
@@ -130,16 +138,49 @@ body {
     background-image: url('_images/google-store.png');
 }
 
+.bottom-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#end {
+    margin-top: 10px;
+    margin-block-end: 50px;
+}
+
+.info {
+    color: rgb(128, 128, 128);
+    padding: 3px 5px;
+}
+
+.info h3 {
+    font-size: 8pt;
+    font-weight: lighter;
+}
+
 /* media queries */
 
 @media (max-width: 1200px) {
-    .instagram-wrapper {
+    .main {
         width: 90%;
+    }
+
+    .bottom-info {
+        width: 60%;
     }
 }
 
-@media (max-width: 780px) {
-    .instagram-wrapper {
+@media (max-width: 720px) {
+    .main {
         width: 90%;
     }
 
