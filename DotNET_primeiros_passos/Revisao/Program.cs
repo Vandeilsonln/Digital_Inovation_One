@@ -35,13 +35,9 @@ namespace Revisao
                         break;
 
                     case "2":
-                        foreach(var i in alunos)
+                        for(var i = 0; i < indiceAluno; i++)
                         {
-                            if(!i.Nome.Equals(""))
-                            {
-                                Console.WriteLine($"ALUNO: {i.Nome} | NOTA: {i.Nota}");
-                            }
-                            
+                            Console.WriteLine($"ALUNO: {alunos[i].Nome} | NOTA: {alunos[i].Nota}");
                         }
 
                         break;
