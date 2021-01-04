@@ -6,6 +6,29 @@ namespace Revisao
     {
         static void Main(string[] args)
         {
+            string opcaoUsuario = ObterOpcaoUsuario();
+
+            while (opcaoUsuario.ToUpper() != "X")
+            {
+                switch (opcaoUsuario)
+                {
+                    case "1":
+                        break;
+
+                    case "2":
+                        break;
+
+                    case "3":
+                        break;
+
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+            }
+        }
+
+        private static string ObterOpcaoUsuario()
+        {
             Console.WriteLine("Informe a opção desejada:");
             Console.WriteLine("1 - Inserir novo aluno");
             Console.WriteLine("2 - Listar alunos");
@@ -14,24 +37,7 @@ namespace Revisao
             Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine();
-
-            while (opcaoUsuario.ToUpper() != "X")
-            {
-                switch(opcaoUsuario)
-                {
-                    case "1":
-                        break;
-
-                    case "2":
-                        break;
-                    
-                    case "3":
-                        break;
-                    
-                    default:
-                        throw new ArgumentOutOfRangeException();
-                }
-            }
+            return opcaoUsuario;
         }
     }
 }
