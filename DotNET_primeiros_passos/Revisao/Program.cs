@@ -35,6 +35,15 @@ namespace Revisao
                         break;
 
                     case "2":
+                        foreach(var i in alunos)
+                        {
+                            if(!i.Nome.Equals(""))
+                            {
+                                Console.WriteLine($"ALUNO: {i.Nome} | NOTA: {i.Nota}");
+                            }
+                            
+                        }
+
                         break;
 
                     case "3":
