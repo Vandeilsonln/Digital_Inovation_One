@@ -46,6 +46,21 @@ namespace Revisao
                         break;
 
                     case "3":
+                    decimal notaTotal = 0;
+                    int numAlunos = 0;
+
+                    for(int i=0; i < alunos.Length; i++)
+                    {
+                        if(!string.IsNullOrEmpty(alunos[i].Nome))
+                        {
+                            notaTotal += alunos[i].Nota;
+                            numAlunos++;
+                        }
+                    }
+
+                    var mediaGeral = notaTotal / numAlunos;
+                    Console.WriteLine($"MÉDIA GERAL: {mediaGeral}");
+                    
                         break;
 
                     default:
