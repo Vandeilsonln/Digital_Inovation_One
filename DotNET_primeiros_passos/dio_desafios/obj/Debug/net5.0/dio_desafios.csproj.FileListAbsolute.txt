@@ -1,0 +1,16 @@
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.csprojAssemblyReference.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.AssemblyInfoInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.AssemblyInfo.cs
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.csproj.CoreCompileInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\dio_desafios.exe
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\dio_desafios.deps.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\dio_desafios.runtimeconfig.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\dio_desafios.runtimeconfig.dev.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\dio_desafios.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\ref\dio_desafios.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\bin\Debug\net5.0\dio_desafios.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\ref\dio_desafios.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\dio_desafios\obj\Debug\net5.0\dio_desafios.genruntimeconfig.cache
