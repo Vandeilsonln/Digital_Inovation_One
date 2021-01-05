@@ -1,17 +1,24 @@
 ﻿using System;
+using System.Globalization;
 
 namespace dio_desafios
 {
     class Desafio {
     static void Main() {
-        var chico = 300 * Int32.Parse(Console.ReadLine());
-        var bento = 1500 * Int32.Parse(Console.ReadLine());
-        var bernardo = 600 * Int32.Parse(Console.ReadLine());
-        var marina = 1000 * Int32.Parse(Console.ReadLine());
-        var iara = 150 * Int32.Parse(Console.ReadLine());
-        var marlene = 225;
-        var total = chico + bento + bernardo + marina + iara + marlene; // Digite aqui o calculo total
-        Console.WriteLine(total);
+        int limit = Int32.Parse(Console.ReadLine());
+        NumberFormatInfo nfi = new CultureInfo( "en-US", false ).NumberFormat;
+        for (int i = 0; i < limit; i++) 
+        {
+            string[] line = Console.ReadLine().Split(" ");
+            double X = double.Parse(line[0]);
+            double Y = double.Parse(line[1]);
+            if (Y == 0) {
+                Console.WriteLine("divisao impossivel");
+            } else {
+                double divisao = X / Y; // Digite aqui o calculo da divisao
+                Console.WriteLine(divisao.ToString("N1", nfi));
+            }
+        }
+        }
     }
-}
 }
