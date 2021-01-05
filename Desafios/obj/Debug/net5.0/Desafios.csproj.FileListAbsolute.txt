@@ -1,5 +1,0 @@
-C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\Desafios\obj\Debug\net5.0\Desafios.csprojAssemblyReference.cache
-C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\Desafios\obj\Debug\net5.0\Desafios.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\Desafios\obj\Debug\net5.0\Desafios.AssemblyInfoInputs.cache
-C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\Desafios\obj\Debug\net5.0\Desafios.AssemblyInfo.cs
-C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\Desafios\obj\Debug\net5.0\Desafios.csproj.CoreCompileInputs.cache
