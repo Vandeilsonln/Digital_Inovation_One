@@ -39,7 +39,7 @@ namespace CursoAPI
 			}
 
 			app.UseSwagger();
-			app.UseSwaggerUI(c => { c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name:"CursoAPI"); });
+			app.UseSwaggerUI(c => { c.SwaggerEndpoint(url: "/swagger/v1/swagger.json", name:"Curso API"); });
 
 			app.UseHttpsRedirection();
 
