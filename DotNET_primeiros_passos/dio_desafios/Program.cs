@@ -3,17 +3,27 @@
 namespace dio_desafios
 {
     class Desafio {
+        static int semServico = 0;
     static void Main() {
-        string[] line = Console.ReadLine().Split(" ");
-        int a = Int32.Parse(line[0]);
-        int n = Int32.Parse(line[1]);
+        string[] available = Console.ReadLine().Split(" ");
+        int Pa = Int32.Parse(available[0]);
+        int Sa = Int32.Parse(available[1]);
+        int Ma = Int32.Parse(available[2]);
         
+        string[] requested = Console.ReadLine().Split(" ");
+        int Pb = Int32.Parse(requested[0]);
+        int Sb = Int32.Parse(requested[1]);
+        int Mb = Int32.Parse(requested[2]);
 
-        for(double progresso = 1; progresso <= 9; progresso++)
+        
+        for (int i = 0; i < available.Length; i++)
         {
-            double parcialPlacas = Math.Ceiling(Convert.ToDouble(a * n * (progresso / 10)));
-            Console.Write(parcialPlacas + " ");
+            if (Int32.Parse(requested[i]) > Int32.Parse(available[i]))
+            {
+                Desafio.semServico += Int32.Parse(requested[i]) - Int32.Parse(available[i]);
+            }
         }
+        Console.WriteLine(Desafio.semServico);        
         }
     }
 }
