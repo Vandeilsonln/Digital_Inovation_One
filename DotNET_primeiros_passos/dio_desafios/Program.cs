@@ -7,12 +7,12 @@ namespace dio_desafios
         string[] line = Console.ReadLine().Split(" ");
         int a = Int32.Parse(line[0]);
         int n = Int32.Parse(line[1]);
-        double parcialPlacas = 0;
+        
 
-        for(int progresso = 1; progresso <= 9; progresso++)
+        for(double progresso = 1; progresso <= 9; progresso++)
         {
-            parcialPlacas = Math.Ceiling(Convert.ToDouble(a * n * (progresso / 10)));
-            Console.WriteLine(parcialPlacas);
+            double parcialPlacas = Math.Ceiling(Convert.ToDouble(a * n * (progresso / 10)));
+            Console.Write(parcialPlacas + " ");
         }
         }
     }
