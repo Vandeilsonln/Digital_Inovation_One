@@ -5,7 +5,7 @@ namespace dio_desafios
 {
     class MinhaClasse {
     public static void Main (string[] args) {
-        Regex padraoPlaca = new Regex (@"[A-Z]{3}\-\d{4}", RegexOptions.Compiled);
+        Regex padraoPlaca = new Regex (@"^[A-Z]{3}\-\d{4}$", RegexOptions.Compiled);
 
         int quantidadeTeste = Int32.Parse(Console.ReadLine());
         string[] placas = new string[quantidadeTeste];
