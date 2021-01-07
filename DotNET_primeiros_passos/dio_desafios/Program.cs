@@ -25,7 +25,8 @@ namespace dio_desafios
             }
             else
             {
-                var ultimoDigito = placa[placa.Length - 1];
+                string ultimoDigito = placa[placa.Length - 1].ToString();   
+                Console.WriteLine(ultimoDigito);
                 if (ultimoDigito == "1")
                 {
                     Console.WriteLine("SEGUNDA");
