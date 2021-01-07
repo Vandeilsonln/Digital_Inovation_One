@@ -1,23 +1,32 @@
 ﻿using System;
+using System.Text.RegularExpressions;
 
 namespace dio_desafios
 {
-
     class MinhaClasse {
     public static void Main (string[] args) {
-        int minutosRestantes = Int32.Parse(Console.ReadLine());
-        string[] minutosFabricacao = Console.ReadLine().Split(" ");
+        Regex padraoPlaca = new Regex (@"[A-Z]{3}\-\d{4}", RegexOptions.Compiled);
 
-        int presente1 = Int32.Parse(minutosFabricacao[0]);
-        int presente2 = Int32.Parse(minutosFabricacao[1]);
+        int quantidadeTeste = Int32.Parse(Console.ReadLine());
+        string[] placas = new string[quantidadeTeste];
 
-        if ((presente1 + presente2) > minutosRestantes)
+        for (int i = 0; i < placas.Length; i++)
         {
-            Console.WriteLine("Deixa para amanha!");
+            placas[i] = Console.ReadLine();
         }
-        else
+
+        foreach (string placa in placas)
         {
-            Console.WriteLine("Farei hoje!");
+            MatchCollection matches = padraoPlaca.Matches(placa);
+
+            if (matches.Count == 0)
+            {
+                Console.WriteLine("FALHA");
+            }
+            else
+            {
+                Console.WriteLine("DIA DA SEMANA");
+            }
         }
     }
     }
