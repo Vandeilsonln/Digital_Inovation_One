@@ -18,6 +18,7 @@ namespace dio_desafios
         foreach (string placa in placas)
         {
             MatchCollection matches = padraoPlaca.Matches(placa);
+            string dia = "";
 
             if (matches.Count == 0)
             {
@@ -26,11 +27,31 @@ namespace dio_desafios
             else
             {
                 string ultimoDigito = placa[placa.Length - 1].ToString();   
-                Console.WriteLine(ultimoDigito);
-                if (ultimoDigito == "1")
+                if (ultimoDigito == "1" | ultimoDigito == "2")
                 {
-                    Console.WriteLine("SEGUNDA");
+                    dia = "SEGUNDA";
                 }
+
+                else if (ultimoDigito == "3" | ultimoDigito == "4")
+                {
+                    dia = "TERCA";
+                }
+
+                else if (ultimoDigito == "5" | ultimoDigito == "6")
+                {
+                    dia = "QUARTA";
+                }
+
+                else if (ultimoDigito == "7" | ultimoDigito == "8")
+                {
+                    dia = "QUINTA";
+                }
+
+                else
+                {
+                    dia = "SEXTA";
+                }
+            Console.WriteLine(dia);
                 
             }
         }
