@@ -1,67 +1,27 @@
 ﻿using System;
-using System.Text.RegularExpressions;
+using System.Linq;
 
 namespace dio_desafios
 {
     class MinhaClasse {
     public static void Main (string[] args) {
-        Regex padraoPlaca = new Regex (@"^[A-Z]{3}\-\d{4}$", RegexOptions.Compiled);
+        string[] inputData = Console.ReadLine().Split(" ");
+        string[] dateAndPerson = Console.ReadLine().Split(" ");
 
-        int quantidadeTeste = Int32.Parse(Console.ReadLine());
-        string[] placas = new string[quantidadeTeste];
+        int people = Int32.Parse(inputData[0]);
+        int possibleDates = Int32.Parse(inputData[1]);
 
-        for (int i = 0; i < placas.Length; i++)
+        string[] info = new string[possibleDates];
+
+        for (int i = 0; i < possibleDates; i++)
         {
-            placas[i] = Console.ReadLine();
-        }
-
-        foreach (string placa in placas)
-        {
-            MatchCollection matches = padraoPlaca.Matches(placa);
-            string dia = "";
-
-            if (matches.Count == 0)
-            {
-                Console.WriteLine("FALHA");
-            }
-            else
-            {
-                string ultimoDigito = placa[placa.Length - 1].ToString();   
-                if (ultimoDigito == "1" | ultimoDigito == "2")
-                {
-                    dia = "SEGUNDA";
-                }
-
-                else if (ultimoDigito == "3" | ultimoDigito == "4")
-                {
-                    dia = "TERCA";
-                }
-
-                else if (ultimoDigito == "5" | ultimoDigito == "6")
-                {
-                    dia = "QUARTA";
-                }
-
-                else if (ultimoDigito == "7" | ultimoDigito == "8")
-                {
-                    dia = "QUINTA";
-                }
-
-                else
-                {
-                    dia = "SEXTA";
-                }
-            Console.WriteLine(dia);
-                
-            }
+            
         }
     }
     
 
     }
 }
-
-
 // for (int i = 0; i < limit; i++) 
 //         {
 //             string[] line = Console.ReadLine().Split(" ");
