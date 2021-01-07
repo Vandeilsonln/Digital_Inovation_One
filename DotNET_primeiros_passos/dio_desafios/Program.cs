@@ -5,12 +5,20 @@ namespace dio_desafios
 
     class MinhaClasse {
     public static void Main (string[] args) {
-        int tempoSegundos = Int32.Parse(Console.ReadLine());
-        int horas = tempoSegundos / 3600;
-        int minutos = (tempoSegundos % 3600) / 60;
-        int segundos =  (tempoSegundos - (horas * 3600)) % 60;
+        int minutosRestantes = Int32.Parse(Console.ReadLine());
+        string[] minutosFabricacao = Console.ReadLine().Split(" ");
 
-        Console.WriteLine($"{horas}:{minutos}:{segundos}");
+        int presente1 = Int32.Parse(minutosFabricacao[0]);
+        int presente2 = Int32.Parse(minutosFabricacao[1]);
+
+        if ((presente1 + presente2) > minutosRestantes)
+        {
+            Console.WriteLine("Deixa para amanha!");
+        }
+        else
+        {
+            Console.WriteLine("Farei hoje!");
+        }
     }
     }
 }
