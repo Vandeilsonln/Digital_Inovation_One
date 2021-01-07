@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/DotNET_primeiros_passos/EstruturaDoPrograma/bin/Debug/net5.0/EstruturaDoPrograma.dll",
+            "program": "${workspaceFolder}/DotNET_primeiros_passos/dio_desafios/bin/Debug/net5.0/dio_desafios.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/DotNET_primeiros_passos/EstruturaDoPrograma",
+            "cwd": "${workspaceFolder}/DotNET_primeiros_passos/dio_desafios",
             "console": "internalConsole",
             "stopAtEntry": false
         },
