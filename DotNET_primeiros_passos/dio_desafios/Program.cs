@@ -2,29 +2,16 @@
 
 namespace dio_desafios
 {
-    class Desafio {
-        static int semServico = 0;
-    static void Main() {
-        string[] available = Console.ReadLine().Split(" ");
-        int Pa = Int32.Parse(available[0]);
-        int Sa = Int32.Parse(available[1]);
-        int Ma = Int32.Parse(available[2]);
-        
-        string[] requested = Console.ReadLine().Split(" ");
-        int Pb = Int32.Parse(requested[0]);
-        int Sb = Int32.Parse(requested[1]);
-        int Mb = Int32.Parse(requested[2]);
 
-        
-        for (int i = 0; i < available.Length; i++)
-        {
-            if (Int32.Parse(requested[i]) > Int32.Parse(available[i]))
-            {
-                Desafio.semServico += Int32.Parse(requested[i]) - Int32.Parse(available[i]);
-            }
-        }
-        Console.WriteLine(Desafio.semServico);        
-        }
+    class MinhaClasse {
+    public static void Main (string[] args) {
+        int tempoSegundos = Int32.Parse(Console.ReadLine());
+        int horas = tempoSegundos / 3600;
+        int minutos = (tempoSegundos % 3600) / 60;
+        int segundos =  (tempoSegundos - (horas * 3600)) % 60;
+
+        Console.WriteLine($"{horas}:{minutos}:{segundos}");
+    }
     }
 }
 
