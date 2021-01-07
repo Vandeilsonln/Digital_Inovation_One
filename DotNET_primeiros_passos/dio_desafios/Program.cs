@@ -25,10 +25,17 @@ namespace dio_desafios
             }
             else
             {
-                Console.WriteLine("DIA DA SEMANA");
+                var ultimoDigito = placa[placa.Length - 1];
+                if (ultimoDigito == "1")
+                {
+                    Console.WriteLine("SEGUNDA");
+                }
+                
             }
         }
     }
+    
+
     }
 }
 
