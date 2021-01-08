@@ -1,21 +1,31 @@
 ﻿using System;
 using System.Linq;
+using System.Collections.Generic;
 
 namespace dio_desafios
 {
     class MinhaClasse {
     public static void Main (string[] args) {
         string[] inputData = Console.ReadLine().Split(" ");
-        string[] dateAndPerson = Console.ReadLine().Split(" ");
 
         int people = Int32.Parse(inputData[0]);
         int possibleDates = Int32.Parse(inputData[1]);
 
-        string[] info = new string[possibleDates];
+        List<List<string>> dateAndAvailability = new List<List<string>>();
 
         for (int i = 0; i < possibleDates; i++)
         {
-            
+
+            foreach (var item in row)
+            {
+                var row = Console.ReadLine().Split(" ");
+                var availability = row.Skip(1);    
+                if (item == "0")
+                {
+                    Console.WriteLine("This person can not go on ths date.");
+                    break;
+                }
+            }
         }
     }
     
