@@ -15,16 +15,17 @@ namespace dio_desafios
 
         for (int i = 0; i < possibleDates; i++)
         {
-
-            foreach (var item in row)
-            {
-                var row = Console.ReadLine().Split(" ");
-                var availability = row.Skip(1);    
-                if (item == "0")
+            var row = Console.ReadLine().Split(" ");
+            var date = row[0];
+            foreach (var person in row.Skip(1))
+            {  
+                if (person == "0")
                 {
                     Console.WriteLine("This person can not go on ths date.");
                     break;
                 }
+                Console.WriteLine(date);
+                break;
             }
         }
     }
