@@ -6,7 +6,6 @@ C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\curso.api.runtimeconfig.dev.json
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\curso.api.dll
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\curso.api.pdb
-C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csprojAssemblyReference.cache
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.AssemblyInfoInputs.cache
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.AssemblyInfo.cs
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csproj.CoreCompileInputs.cache
@@ -26,3 +25,4 @@ C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csproj.CopyComplete
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csprojAssemblyReference.cache
