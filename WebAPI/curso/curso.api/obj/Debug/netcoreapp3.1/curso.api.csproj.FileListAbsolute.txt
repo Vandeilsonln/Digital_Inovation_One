@@ -18,3 +18,10 @@ C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.dll
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.pdb
 C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.genruntimeconfig.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\curso.api.xml
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\WebAPI\curso\curso.api\obj\Debug\netcoreapp3.1\curso.api.csproj.CopyComplete
