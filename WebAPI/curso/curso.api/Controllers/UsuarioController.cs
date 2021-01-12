@@ -8,20 +8,24 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace curso.api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/usuario")]
     [ApiController]
     public class UsuarioController : ControllerBase
     {
         [HttpPost]
+        [Route("logar")]
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
         {
-            return Created("", loginViewModelInput);
+            return Ok(loginViewModelInput);
         }
 
         [HttpPost]
-        public IActionResult Registrar(LoginViewModelInput loginViewModelInput)
+        [Route("registrar")]
+        public IActionResult Registrar(RegistroViewModelInput registroViewModelInput)
         {
-            return Created("", loginViewModelInput);
+            return Created("", registroViewModelInput);
         }
+
+
     }
 }
