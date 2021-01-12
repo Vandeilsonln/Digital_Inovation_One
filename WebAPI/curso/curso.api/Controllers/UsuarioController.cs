@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using curso.api.Models.Usuarios;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -14,7 +15,13 @@ namespace curso.api.Controllers
         [HttpPost]
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
         {
-            return Created(""),
+            return Created("", loginViewModelInput);
+        }
+
+        [HttpPost]
+        public IActionResult Registrar(LoginViewModelInput loginViewModelInput)
+        {
+            return Created("", loginViewModelInput);
         }
     }
 }
