@@ -24,7 +24,6 @@ namespace curso.api.Controllers
         [SwaggerResponse(statusCode: 400, description: "Campos obrigatórios", Type = typeof(ValidaCampoViewModelOutput))]
         [SwaggerResponse(statusCode: 500, description: "Erro interno", Type = typeof(ErroGenericoViewModel))]
 
-
         [HttpPost]
         [Route("logar")]
         public IActionResult Logar(LoginViewModelInput loginViewModelInput)
