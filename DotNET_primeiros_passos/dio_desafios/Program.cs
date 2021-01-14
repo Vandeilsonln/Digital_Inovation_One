@@ -8,10 +8,11 @@ namespace dio_desafios
     {
     public static void Main (string[] args)
         {
-            int entrada = Int32.Parse(Console.ReadLine());
-            for (int i = 1; i <= entrada; i++)
+            int qtdTartarugas = Int32.Parse(Console.ReadLine());
+            int [] listatartaruga = Array.ConvertAll(Console.ReadLine().Split(" "), Int32.Parse);
+            for (int i = 0; i < qtdTartarugas; i++)
             {
-                Console.WriteLine($"{i} {i*i} {i*i*i}");
+                Console.WriteLine(listatartaruga[i]);
             }
         
 
