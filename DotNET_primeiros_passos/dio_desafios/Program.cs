@@ -4,35 +4,24 @@ using System.Collections.Generic;
 
 namespace dio_desafios
 {
-    class MinhaClasse {
-    public static void Main (string[] args) {
-        string[] inputData = Console.ReadLine().Split(" ");
-
-        int people = Int32.Parse(inputData[0]);
-        int possibleDates = Int32.Parse(inputData[1]);
-
-        List<List<string>> dateAndAvailability = new List<List<string>>();
-
-        for (int i = 0; i < possibleDates; i++)
+    class MinhaClasse 
+    {
+    public static void Main (string[] args)
         {
-            var row = Console.ReadLine().Split(" ");
-            var date = row[0];
-            foreach (var person in row.Skip(1))
-            {  
-                if (person == "0")
-                {
-                    Console.WriteLine("This person can not go on ths date.");
-                    break;
-                }
-                Console.WriteLine(date);
-                break;
+            int entrada = Int32.Parse(Console.ReadLine());
+            for (int i = 1; i <= entrada; i++)
+            {
+                Console.WriteLine($"{i} {i*i} {i*i*i}");
             }
+        
+
+        
         }
     }
+}
     
 
-    }
-}
+    
 // for (int i = 0; i < limit; i++) 
 //         {
 //             string[] line = Console.ReadLine().Split(" ");
