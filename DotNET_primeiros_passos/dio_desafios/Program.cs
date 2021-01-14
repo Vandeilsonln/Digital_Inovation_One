@@ -9,12 +9,28 @@ namespace dio_desafios
     public static void Main (string[] args)
         {
             int qtdTartarugas = Int32.Parse(Console.ReadLine());
-            int [] listatartaruga = Array.ConvertAll(Console.ReadLine().Split(" "), Int32.Parse);
+            int [] velocidadeTartarugas = Array.ConvertAll(Console.ReadLine().Split(" "), Int32.Parse);
+            int maior = 0;
             for (int i = 0; i < qtdTartarugas; i++)
             {
-                Console.WriteLine(listatartaruga[i]);
+                if (velocidadeTartarugas[i] > maior)
+                {
+                    maior = velocidadeTartarugas[i];
+                }
             }
-        
+            
+            if (maior < 10)
+            {
+                Console.WriteLine(1);
+            }
+            else if (maior < 20)
+            {
+                Console.WriteLine(2);
+            }
+            else 
+            {
+                Console.WriteLine(3);
+            }
 
         
         }
