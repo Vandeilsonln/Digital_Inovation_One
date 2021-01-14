@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "n5OoXqgqAxKRWFJB0At0jQ/DQ7kx7dyph4gc8hbnQCQh3J9hCq1kWAooTPSl5Ut9t1SoYl7ewCIaKaeofpG1lA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aline\\Desktop\\Vandeilson_UNICSUL\\git_repositorio\\Digital_Inovation_One\\DotNET_primeiros_passos\\aurora_api\\Infra.Shared\\Infra.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aline\\.nuget\\packages\\flunt\\1.0.5\\flunt.1.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

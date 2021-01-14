@@ -1,0 +1,9 @@
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\bin\Debug\netcoreapp3.1\Aurora.Domain.deps.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\bin\Debug\netcoreapp3.1\Aurora.Domain.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\bin\Debug\netcoreapp3.1\Aurora.Domain.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\obj\Debug\netcoreapp3.1\Aurora.Domain.csprojAssemblyReference.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\obj\Debug\netcoreapp3.1\Aurora.Domain.AssemblyInfoInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\obj\Debug\netcoreapp3.1\Aurora.Domain.AssemblyInfo.cs
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\obj\Debug\netcoreapp3.1\Aurora.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\obj\Debug\netcoreapp3.1\Aurora.Domain.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Domain\obj\Debug\netcoreapp3.1\Aurora.Domain.pdb

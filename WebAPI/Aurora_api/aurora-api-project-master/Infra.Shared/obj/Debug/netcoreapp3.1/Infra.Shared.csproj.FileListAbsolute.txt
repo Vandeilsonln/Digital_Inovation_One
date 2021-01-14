@@ -1,0 +1,12 @@
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.deps.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\bin\Debug\netcoreapp3.1\Aurora.Domain.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\bin\Debug\netcoreapp3.1\Aurora.Domain.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csprojAssemblyReference.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.AssemblyInfoInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.AssemblyInfo.cs
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csproj.CoreCompileInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.csproj.CopyComplete
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\obj\Debug\netcoreapp3.1\Infra.Shared.pdb

@@ -1,0 +1,22 @@
+﻿Build iniciado...
+1>------ Compilação iniciada: Projeto: Aurora.Infra.Data, Configuração: Debug Any CPU ------
+2>------ Compilação iniciada: Projeto: Infra.Shared, Configuração: Debug Any CPU ------
+1>Aurora.Infra.Data -> C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Infra.Data.dll
+2>Infra.Shared -> C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Infra.Shared\bin\Debug\netcoreapp3.1\Infra.Shared.dll
+3>------ Compilação iniciada: Projeto: Aurora.Service, Configuração: Debug Any CPU ------
+3>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2123,5): warning MSB3277: foram encontrados conflitos entre versões diferentes "Microsoft.EntityFrameworkCore" que não puderam ser resolvidos. Esses conflitos de referência estão relacionados no log de build quando o detalhamento do log está definido como detalhado.
+3>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2123,5): warning MSB3277: foram encontrados conflitos entre versões diferentes "Microsoft.EntityFrameworkCore.Relational" que não puderam ser resolvidos. Esses conflitos de referência estão relacionados no log de build quando o detalhamento do log está definido como detalhado.
+3>Aurora.Service -> C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Service\bin\Debug\netcoreapp3.1\Aurora.Service.dll
+3>Projeto de compilação pronto "Aurora.Service.csproj".
+4>------ Compilação iniciada: Projeto: Aurora.Infra.CrossCutting, Configuração: Debug Any CPU ------
+4>Aurora.Infra.CrossCutting -> C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.CrossCutting\bin\Debug\netcoreapp3.1\Aurora.Infra.CrossCutting.dll
+5>------ Compilação iniciada: Projeto: Aurora.Application, Configuração: Debug Any CPU ------
+5>Aurora.Application -> C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Application\bin\Debug\netcoreapp3.1\Aurora.Application.dll
+6>------ Compilação iniciada: Projeto: Aurora.IntegrationTests, Configuração: Debug Any CPU ------
+6>SpecFlowFeatureFiles: Features\Worker.feature
+6>SpecFlowGeneratedFiles: Features\Worker.feature.cs
+6>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2123,5): warning MSB3277: foram encontrados conflitos entre versões diferentes "Microsoft.EntityFrameworkCore" que não puderam ser resolvidos. Esses conflitos de referência estão relacionados no log de build quando o detalhamento do log está definido como detalhado.
+6>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2123,5): warning MSB3277: foram encontrados conflitos entre versões diferentes "Microsoft.EntityFrameworkCore.Relational" que não puderam ser resolvidos. Esses conflitos de referência estão relacionados no log de build quando o detalhamento do log está definido como detalhado.
+6>Aurora.IntegrationTests -> C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.IntegrationTests\bin\Debug\netcoreapp3.1\Aurora.IntegrationTests.dll
+6>Projeto de compilação pronto "Aurora.IntegrationTests.csproj".
+========== Compilar: 6 com êxito, 0 com falha, 1 atualizados, 0 ignorados ==========

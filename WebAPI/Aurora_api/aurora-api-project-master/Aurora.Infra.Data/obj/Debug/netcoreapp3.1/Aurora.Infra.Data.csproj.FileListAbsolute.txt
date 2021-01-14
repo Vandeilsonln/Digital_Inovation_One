@@ -1,0 +1,15 @@
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Infra.Data.deps.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Infra.Data.runtimeconfig.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Infra.Data.runtimeconfig.dev.json
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Infra.Data.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Infra.Data.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Domain.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\bin\Debug\netcoreapp3.1\Aurora.Domain.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.csprojAssemblyReference.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.AssemblyInfo.cs
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.csproj.CopyComplete
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.dll
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.pdb
+C:\Users\aline\Desktop\Vandeilson_UNICSUL\git_repositorio\Digital_Inovation_One\DotNET_primeiros_passos\aurora_api\Aurora.Infra.Data\obj\Debug\netcoreapp3.1\Aurora.Infra.Data.genruntimeconfig.cache
