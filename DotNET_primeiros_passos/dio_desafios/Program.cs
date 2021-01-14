@@ -10,12 +10,19 @@ namespace dio_desafios
         {
             int R = Int32.Parse(Console.ReadLine());
             int V = 0;
+            int contaDigitos = 1;
 
             while (V <= R)
             {
-                Console.WriteLine("V é menor que R");
                 V = Int32.Parse(Console.ReadLine());
             }
+            
+            while(R <= V)
+            {
+                contaDigitos++;
+                R = R + (R+1);
+            }
+            Console.WriteLine(contaDigitos);
         }
     }
 }
