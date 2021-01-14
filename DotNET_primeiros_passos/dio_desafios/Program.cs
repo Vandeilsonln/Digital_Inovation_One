@@ -8,6 +8,9 @@ namespace dio_desafios
     {
     public static void Main (string[] args)
         {
+            int vezes = 3;
+            for (int j=0; j < vezes; j++)
+            {
             int qtdTartarugas = Int32.Parse(Console.ReadLine());
             int [] velocidadeTartarugas = Array.ConvertAll(Console.ReadLine().Split(" "), Int32.Parse);
             int maior = 0;
@@ -32,7 +35,7 @@ namespace dio_desafios
                 Console.WriteLine(3);
             }
 
-        
+            }
         }
     }
 }
