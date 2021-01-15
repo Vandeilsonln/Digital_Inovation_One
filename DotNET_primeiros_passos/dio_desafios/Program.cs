@@ -8,24 +8,16 @@ namespace dio_desafios
     {
     public static void Main (string[] args)
         {
-            int R = Int32.Parse(Console.ReadLine());
-            int V = 0;
-            int contaDigitos = 1;
 
-            while (V <= R)
-            {
-                V = Int32.Parse(Console.ReadLine());
-            }
-            
-            while(R <= V)
-            {
-                contaDigitos++;
-                R = R + (R+1);
-            }
-            Console.WriteLine(contaDigitos);
+            double nota1 = Double.Parse(Console.ReadLine());
+            double nota2 = Double.Parse(Console.ReadLine());
+            double media = (nota1 + nota2);
+
+            Console.WriteLine(media);
         }
     }
 }
+
     
 
     
