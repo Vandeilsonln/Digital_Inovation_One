@@ -8,15 +8,35 @@ namespace dio_desafios
     {
     public static void Main (string[] args)
         {
-            string joia = Console.ReadLine();
-            List<string> joias = new List<string> {};
-            while (joia != null)
+            string [] line = Console.ReadLine().Split(" ");
+            int N = int.Parse(line[0]);
+            int D = int.Parse(line[1]);
+
+            string data = "";
+            int quantidade = 0;
+
+            bool achouData = false;
+
+            for (int dt = 0; dt < D; dt++)
             {
-                joias.Add(joia);
-                joia = Console.ReadLine();
+                quantidade = 0;
+                string [] dados = Console.ReadLine().Split(" ");
+
+                data = dados[0];
+
+                for (int p = 1; p < dados.Length; p++)
+                {
+                    quantidade += int.Parse(dados[p]);
+                }
+                achouData = (quantidade == N);
+                if (achouData)
+                {
+                    break;
+                }
+
             }
-            var quantidadeJoias = joias.Distinct().Count();
-            Console.WriteLine(quantidadeJoias);
+            if (achouData) {Console.WriteLine(data);}
+            else {Console.WriteLine("Pizza antes de FdA");}
         }
     }
 }
