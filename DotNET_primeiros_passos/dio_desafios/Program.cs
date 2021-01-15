@@ -11,18 +11,33 @@ namespace dio_desafios
         {
             NumberFormatInfo nfi = new CultureInfo( "en-US", false ).NumberFormat;
 
-            double nota1 = -1;
-            while (nota1 < 0 | nota1 > 10)
+            double nota1 = 0;
+            double nota2 = 0;
+            while (true)
             {
                 nota1 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
+                if (nota1 < 0 | nota1 > 10)
+                {
+                    Console.WriteLine("nota invalida");
+                }
+                else 
+                {
+                    break;
+                }
             }
 
-            double nota2 = -1;
-            while (nota2 < 0 | nota2 > 10)
+            while (true)
             {
                 nota2 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
+                if (nota2 < 0 | nota2 > 10)
+                {
+                    Console.WriteLine("nota invalida");
+                }
+                else 
+                {
+                    break;
+                }
             }
-            
 
             double media = (nota1 + nota2) / 2;
 
