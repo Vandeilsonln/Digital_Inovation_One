@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
-using System.Globalization;
 
 namespace dio_desafios
 {
@@ -9,43 +8,18 @@ namespace dio_desafios
     {
     public static void Main (string[] args)
         {
-            NumberFormatInfo nfi = new CultureInfo( "en-US", false ).NumberFormat;
-
-            double nota1 = 0;
-            double nota2 = 0;
-            while (true)
+            string joia = Console.ReadLine();
+            List<string> joias = new List<string> {};
+            while (joia != null)
             {
-                nota1 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
-                if (nota1 < 0 | nota1 > 10)
-                {
-                    Console.WriteLine("nota invalida");
-                }
-                else 
-                {
-                    break;
-                }
+                joias.Add(joia);
+                joia = Console.ReadLine();
             }
-
-            while (true)
-            {
-                nota2 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
-                if (nota2 < 0 | nota2 > 10)
-                {
-                    Console.WriteLine("nota invalida");
-                }
-                else 
-                {
-                    break;
-                }
-            }
-
-            double media = (nota1 + nota2) / 2;
-
-            Console.WriteLine("media = " + media.ToString("N2", nfi));
+            var quantidadeJoias = joias.Distinct().Count();
+            Console.WriteLine(quantidadeJoias);
         }
     }
 }
-
     
 
     
