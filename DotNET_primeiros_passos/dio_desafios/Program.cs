@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Collections.Generic;
+using System.Globalization;
 
 namespace dio_desafios
 {
@@ -8,12 +9,12 @@ namespace dio_desafios
     {
     public static void Main (string[] args)
         {
-
-            double nota1 = Double.Parse(Console.ReadLine());
-            double nota2 = Double.Parse(Console.ReadLine());
+            NumberFormatInfo nfi = new CultureInfo( "en-US", false ).NumberFormat;
+            double nota1 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
+            double nota2 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
             double media = (nota1 + nota2);
 
-            Console.WriteLine(media);
+            Console.WriteLine(media.ToString("N1", nfi));
         }
     }
 }
