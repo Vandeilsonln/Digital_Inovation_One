@@ -10,11 +10,23 @@ namespace dio_desafios
     public static void Main (string[] args)
         {
             NumberFormatInfo nfi = new CultureInfo( "en-US", false ).NumberFormat;
-            double nota1 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
-            double nota2 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
-            double media = (nota1 + nota2);
 
-            Console.WriteLine(media.ToString("N1", nfi));
+            double nota1 = -1;
+            while (nota1 < 0 | nota1 > 10)
+            {
+                nota1 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
+            }
+
+            double nota2 = -1;
+            while (nota2 < 0 | nota2 > 10)
+            {
+                nota2 = Double.Parse(Console.ReadLine(), new NumberFormatInfo() { NumberDecimalSeparator = "." });
+            }
+            
+
+            double media = (nota1 + nota2) / 2;
+
+            Console.WriteLine("media = " + media.ToString("N2", nfi));
         }
     }
 }
